@@ -168,6 +168,30 @@ a {
     width: 50%;
     height: 100%;
 }
+.proyecto__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 500px;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+
+
+/* Si usas <video poster="miniatura.jpg"> en HTML, se mostrará la miniatura antes de reproducir */
+
+.proyecto__video iframe,
+.proyecto__video video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
 .contacto__formulario{
